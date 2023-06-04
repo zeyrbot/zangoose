@@ -12,4 +12,4 @@
 👤 **Runa**
 
 * Twitter: [@ruunaoo](https://twitter.com/ruunaoo)
-* Github: [@ruunao](https://github.com/ruunao) by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
+* Github: [@ruunao](https://github.com/ruunao)
