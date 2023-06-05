@@ -12,8 +12,8 @@ pub async fn help(
 		command.as_deref(),
 		poise::builtins::HelpConfiguration {
 			extra_text_at_bottom: "\
-			This is an example bot made to showcase features of my custom Discord bot framework",
-			show_context_menu_commands: true,
+			Zeyr rust. version 0.1.0",
+			show_context_menu_commands: false,
 			..Default::default()
 		},
 	)

@@ -36,7 +36,6 @@ async fn main() {
 		register(),
 		help::help(),
 		ping::run(),
-		tag::tag::run()
 	];
 	poise::set_qualified_names(&mut commands);
 
