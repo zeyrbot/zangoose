@@ -8,6 +8,6 @@ pub mod utils;
 pub async fn register(ctx: ZeyrContext<'_>) -> Result<(), ZeyrError> {
 	print!("Registering commands... ");
 	poise::builtins::register_application_commands_buttons(ctx).await?;
-	
+
 	Ok(())
 }

@@ -3,7 +3,7 @@
 mod commands;
 mod events;
 
-use commands::{*, utils::piston};
+use commands::{utils::piston, *};
 use events::Handler;
 use poise::serenity_prelude::{self as serenity, RwLock};
 use std::{
@@ -32,12 +32,7 @@ async fn main() {
 	let mut owners = HashSet::new();
 	owners.insert(serenity::UserId(1076700780175831100));
 
-	let mut commands = vec![
-		register(),
-		help::help(),
-		ping::run(),
-		piston::run()
-	];
+	let mut commands = vec![register(), help::help(), ping::run(), piston::run()];
 	poise::set_qualified_names(&mut commands);
 
 	let data = Arc::new(RwLock::new(ZeyrData {
