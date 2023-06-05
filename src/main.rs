@@ -3,7 +3,7 @@
 mod commands;
 mod events;
 
-use commands::*;
+use commands::{*, utils::piston};
 use events::Handler;
 use poise::serenity_prelude::{self as serenity, RwLock};
 use std::{
@@ -36,6 +36,7 @@ async fn main() {
 		register(),
 		help::help(),
 		ping::run(),
+		piston::run()
 	];
 	poise::set_qualified_names(&mut commands);
 

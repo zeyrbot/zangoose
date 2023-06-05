@@ -1,11 +1,11 @@
-<h1 align="center">zeyr-rs</h1>
+<h1 align="center">Zangoose</h1>
 <p>
   <a href="https://twitter.com/ruunaoo" target="_blank">
     <img alt="Twitter: ruunaoo" src="https://img.shields.io/twitter/follow/ruunaoo.svg?style=social" />
   </a>
 </p>
 
-> Rust version of Zeyr, made ontop of Serenity and Poise
+> Helper bot made in rust made to help developers with their stuff
 
 ## Author
 

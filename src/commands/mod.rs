@@ -2,6 +2,7 @@ use crate::{ZeyrContext, ZeyrError};
 
 pub mod help;
 pub mod ping;
+pub mod utils;
 
 #[poise::command(prefix_command, slash_command, ephemeral = true, rename = "register")]
 pub async fn register(ctx: ZeyrContext<'_>) -> Result<(), ZeyrError> {
