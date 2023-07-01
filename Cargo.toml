@@ -9,7 +9,7 @@ edition = "2021"
 dotenv = "0.15.0"
 imagescript = "0.0.10"
 piston_rs = "0.4.3"
-poise = "0.5.2"
+poise = "0.5.5"
 tagscript_rs = "0.1.0"
 text-colorizer = "1.0.0"
 tokio = { version = "1.21.2", features = ["macros", "rt-multi-thread"] }
